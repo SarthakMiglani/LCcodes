@@ -1,0 +1,142 @@
+You are helping me build a LeetCode solutions library at:
+/Users/s0s1ea1/personal/LCcodes
+
+TASK:
+Given the problem statement I paste below, do the following:
+
+1. CATEGORIZE the problem into the correct topic folder.
+   Use one of these folder names (create it if it doesn't exist):
+     Arrays / Strings / LinkedList / BinaryTree / Graphs /
+     DynamicProgramming / Backtracking / TwoPointers / SlidingWindow /
+     BinarySearch / Heap / Stack / Queue / HashMap / Math / Greedy /
+     Trie / BitManipulation / Matrix
+   If it fits multiple, pick the PRIMARY topic.
+
+2. NAME the file using this pattern (all lowercase, underscores):
+     <lc_number>_<short_problem_name>.md
+   Example: 94_inorder_traversal.md
+
+3. CREATE the file at:
+     /Users/s0s1ea1/personal/LCcodes/<TopicFolder>/<filename>.md
+
+4. WRITE the file in EXACTLY this Markdown format — no deviations:
+
+# LeetCode <NUMBER> — <Full Problem Title>
+
+🔗 https://leetcode.com/problems/<slug>/
+
+**Problem:** <one-line problem summary>
+
+> **Key insight:** <Any key constraint or insight worth noting upfront>
+
+---
+
+## Approach 1 — Brute Force | <approach name>
+
+### Algorithm
+<Numbered steps in plain English. Explain the core idea,
+what data structure is used, and why it works.>
+
+### Pseudocode
+```
+<Language-agnostic pseudocode. Use indentation, arrows (→),
+and plain words. No C++ syntax here.>
+```
+
+### How to Remember
+**Mnemonic:** *"<short catchy phrase>"*
+
+<A story, analogy, or visual that makes this approach stick
+in memory. 2–4 sentences max.>
+
+### Complexity
+| | |
+|---|---|
+| **Time** | O(?) — <brief reason> |
+| **Space** | O(?) — <brief reason> |
+
+### Code
+```cpp
+#include <...>
+using namespace std;
+
+class Solution {
+public:
+    <return type> <functionName>(<params>) {
+        // clean, well-commented LeetCode-ready code
+    }
+};
+```
+
+---
+
+## Approach 2 — Optimized | <approach name>
+
+### Algorithm
+...
+
+### Pseudocode
+```
+...
+```
+
+### How to Remember
+**Mnemonic:** *"..."*
+
+...
+
+### Complexity
+| | |
+|---|---|
+| **Time** | O(?) — ... |
+| **Space** | O(?) — ... |
+
+### Code
+```cpp
+#include <...>
+using namespace std;
+
+class Solution {
+public:
+    <return type> <functionName>(<params>) {
+        // clean, well-commented LeetCode-ready code
+    }
+};
+```
+
+---
+
+## Approach 3 — Most Optimized | <approach name>   (if applicable)
+
+(Same structure as above. Include only if a meaningfully better
+approach exists — e.g., O(1) space, better time complexity.
+If only 2 approaches exist, omit this section entirely.)
+
+---
+
+## Quick Reference Summary
+
+| Approach | Time | Space | Key Idea |
+|---|---|---|---|
+| <Approach 1> | O(?) | O(?) | <one phrase> |
+| <Approach 2> | O(?) | O(?) | <one phrase> |
+| <Approach 3> | O(?) | O(?) | <one phrase> |
+
+**Variables:** n = input size  |  h = tree height  |  k = ... (define as needed)
+
+> **Interview tip:** <One sentence on which approach to lead with and when to mention the others.>
+
+---
+
+RULES:
+- Each Code block must be standalone and compilable as-is if TreeNode/ListNode/etc. are added.
+- Do NOT write a main() function or test harness.
+- Do NOT merge all approaches into one class — each gets its own class Solution block.
+- Pseudocode must use plain English + indentation only, no C++ syntax.
+- Mnemonics must be memorable: use stories, visuals, or acronyms.
+- If a 3rd approach doesn't exist or isn't meaningfully better, use only 2 approaches — never pad with weak variations.
+- Always include the complexity table with a reason, not just O(?).
+
+---
+
+PROBLEM STATEMENT:
